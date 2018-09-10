@@ -1,0 +1,18 @@
+## send message to topic
+/usr/hdp/3.0.0.0-1634/kafka/bin/kafka-console-producer.sh --broker-list 172.31.19.216:6667 --topic ssh-v2
+{"__time":"string", "uid":"string", "id_orig_h":"string", "id_orig_p":"string", "id_resp_h":"string", "id_resp_p":"string", "status":"string", "direction":"string", "client":"string", "serever":"string", "resp_size":"string"}
+{"__time":"2018-09-07T13:25:35Z","uid":"Cnlcn3DWpU3wysxH7","id_orig_h":"192.168.202.141","id_orig_p":"8027","id_resp_h":"192.168.229.101","id_resp_p":"22","status":"failure","direction":"INBOUND","client":null,"server":"SSH-2.0-OpenSSH_5.8p1 Debian-7ubuntu1","resp_size":null}
+
+##read messages from topic
+/usr/hdp/3.0.0.0-1634/kafka/bin/kafka-console-consumer.sh --zookeeper localhost:2181  --topic ssh --from-beginning
+
+## Purge queue
+/usr/hdp/3.0.0.0-1634/kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --alter --topic ssh --config retention.ms=1000
+
+## Delete kafka topic
+/usr/hdp/3.0.0.0-1634/kafka/bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic ssh
+
+
+
+/usr/hdp/3.0.0.0-1634/kafka/bin/kafka-console-producer.sh --broker-list 172.31.19.216:6667 --topic dhcp
+{"__time":"2018-09-07T20:10:35Z","uid":"Cnlcn3DWpU3wysxH7","id_orig_h":"192.168.202.141","id_orig_p":"8027","id_resp_h":"192.168.229.101","id_resp_p":"22","status":"failure","direction":"INBOUND","client":null,"server":"SSH-2.0-OpenSSH_5.8p1 Debian-7ubuntu1","resp_size":null}

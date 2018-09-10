@@ -1,0 +1,12 @@
+All datasets used on this demo can be found at http://www.secrepo.com
+
+Here are the specific url to download each dataset:
+
+dhcp dataset http://www.secrepo.com/maccdc2012/dhcp.log.gz
+ssh dataset http://www.secrepo.com/maccdc2012/ssh.log.gz
+dns dataset http://www.secrepo.com/maccdc2012/dns.log.gz
+ftp dataset http://www.secrepo.com/maccdc2012/ftp.log.gz
+http dataset http://www.secrepo.com/maccdc2012/http.log.gz
+
+
+

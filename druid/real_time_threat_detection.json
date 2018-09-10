@@ -1,0 +1,25 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "slices": [],
+                "changed_on": {
+                    "__datetime__": "2018-09-10T15:10:54"
+                },
+                "slug": null,
+                "json_metadata": "{\"remote_id\": 1}",
+                "changed_by_fk": 1,
+                "id": 1,
+                "position_json": "",
+                "description": null,
+                "css": "",
+                "created_by_fk": 1,
+                "created_on": {
+                    "__datetime__": "2018-09-10T15:10:54"
+                },
+                "dashboard_title": "Real Time Threat Detection"
+            }
+        }
+    ],
+    "datasources": []
+}

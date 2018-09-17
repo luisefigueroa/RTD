@@ -1,0 +1,2 @@
+{"__time":"2018-09-17T01:56:27.873Z", "uid":"CTHcOo3BARDOPDjYue", "id_orig_h":"192.168.202.68", "id_orig_p":"53633", "id_resp_h":"192.168.28.254", "id_resp_p":"22", "status":"failure", "direction":"INBOUND", "client":"SSH-2.0-OpenSSH_5.0", "server":"SSH-1.99-Cisco-1.25", "resp_size":48}
+

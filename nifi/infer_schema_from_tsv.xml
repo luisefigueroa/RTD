@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description></description>
+    <groupId>7c84501d-d10c-407c-b9f3-1d80e38fe36a</groupId>
+    <name>infer_schema_from_tsv</name>
+    <snippet>
+        <processGroups>
+            <id>aa536445-7025-37ff-0000-000000000000</id>
+            <parentGroupId>46f95fe5-3024-31d8-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <comments></comments>
+            <contents>
+                <connections>
+                    <id>502b4348-ca5f-3945-0000-000000000000</id>
+                    <parentGroupId>aa536445-7025-37ff-0000-000000000000</parentGroupId>
+                    <versionedComponentId>d663081f-f411-3161-a3c7-e06963f6151d</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>1390.1079134751317</x>
+                        <y>446.38689689351554</y>
+                    </bends>
+                    <bends>
+                        <x>1390.1079134751317</x>
+                        <y>496.38689689351554</y>
+                    </bends>
+                    <destination>
+                        <groupId>aa536445-7025-37ff-0000-000000000000</groupId>
+                        <id>91e4f168-e0e6-3725-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>c70f7a8d-ec01-3256-a4f9-49b10214632b</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <source>
+                        <groupId>aa536445-7025-37ff-0000-000000000000</groupId>
+                        <id>91e4f168-e0e6-3725-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>c70f7a8d-ec01-3256-a4f9-49b10214632b</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>9854e772-8f54-34ea-0000-000000000000</id>
+                    <parentGroupId>aa536445-7025-37ff-0000-000000000000</parentGroupId>
+                    <versionedComponentId>680dbdce-6506-3074-9e5b-632f90a33abc</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>aa536445-7025-37ff-0000-000000000000</groupId>
+                        <id>91e4f168-e0e6-3725-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>c70f7a8d-ec01-3256-a4f9-49b10214632b</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>aa536445-7025-37ff-0000-000000000000</groupId>
+                        <id>6ad6f33c-a807-34b4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>4c040c9d-0029-3764-977b-1f03544add5d</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>fa75fff1-e897-37b2-0000-000000000000</id>
+                    <parentGroupId>aa536445-7025-37ff-0000-000000000000</parentGroupId>
+                    <versionedComponentId>5cf5f0a4-84f3-35c7-9fbd-cddf4fe80596</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>1399.7150183617523</x>
+                        <y>172.72719077184433</y>
+                    </bends>
+                    <bends>
+                        <x>1399.7150183617523</x>
+                        <y>222.72719077184433</y>
+                    </bends>
+                    <destination>
+                        <groupId>aa536445-7025-37ff-0000-000000000000</groupId>
+                        <id>6ad6f33c-a807-34b4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>4c040c9d-0029-3764-977b-1f03544add5d</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <source>
+                        <groupId>aa536445-7025-37ff-0000-000000000000</groupId>
+                        <id>6ad6f33c-a807-34b4-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>4c040c9d-0029-3764-977b-1f03544add5d</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <processors>
+                    <id>6ad6f33c-a807-34b4-0000-000000000000</id>
+                    <parentGroupId>aa536445-7025-37ff-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>944.7150183617523</x>
+                        <y>132.72719077184433</y>
+                    </position>
+                    <versionedComponentId>4c040c9d-0029-3764-977b-1f03544add5d</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-kite-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Schema Output Destination</key>
+<value>
+    <name>Schema Output Destination</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Input Content Type</key>
+<value>
+    <name>Input Content Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CSV Header Definition</key>
+<value>
+    <name>CSV Header Definition</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Get CSV Header Definition From Data</key>
+<value>
+    <name>Get CSV Header Definition From Data</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CSV Header Line Skip Count</key>
+<value>
+    <name>CSV Header Line Skip Count</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CSV delimiter</key>
+<value>
+    <name>CSV delimiter</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CSV Escape String</key>
+<value>
+    <name>CSV Escape String</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CSV Quote String</key>
+<value>
+    <name>CSV Quote String</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Pretty Avro Output</key>
+<value>
+    <name>Pretty Avro Output</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Avro Record Name</key>
+<value>
+    <name>Avro Record Name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Number Of Records To Analyze</key>
+<value>
+    <name>Number Of Records To Analyze</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Charset</key>
+<value>
+    <name>Charset</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Schema Output Destination</key>
+<value>flowfile-content</value>
+                            </entry>
+                            <entry>
+<key>Input Content Type</key>
+<value>csv</value>
+                            </entry>
+                            <entry>
+<key>CSV Header Definition</key>
+<value>__time	uid	id_orig_h	id_orig_p	id_resp_h	id_resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types</value>
+                            </entry>
+                            <entry>
+<key>Get CSV Header Definition From Data</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>CSV Header Line Skip Count</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>CSV delimiter</key>
+<value>	</value>
+                            </entry>
+                            <entry>
+<key>CSV Escape String</key>
+<value>\</value>
+                            </entry>
+                            <entry>
+<key>CSV Quote String</key>
+<value>'</value>
+                            </entry>
+                            <entry>
+<key>Pretty Avro Output</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>Avro Record Name</key>
+<value>tmpAvroSchema</value>
+                            </entry>
+                            <entry>
+<key>Number Of Records To Analyze</key>
+<value>5000</value>
+                            </entry>
+                            <entry>
+<key>Charset</key>
+<value>UTF-8</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>InferAvroSchema</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>original</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>unsupported content</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.kite.InferAvroSchema</type>
+                </processors>
+                <processors>
+                    <id>91e4f168-e0e6-3725-0000-000000000000</id>
+                    <parentGroupId>aa536445-7025-37ff-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>935.1079134751318</x>
+                        <y>406.38689689351554</y>
+                    </position>
+                    <versionedComponentId>c70f7a8d-ec01-3256-a4f9-49b10214632b</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-hadoop-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Hadoop Configuration Resources</key>
+<value>
+    <name>Hadoop Configuration Resources</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+    <name>kerberos-credentials-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Kerberos Principal</key>
+<value>
+    <name>Kerberos Principal</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Kerberos Keytab</key>
+<value>
+    <name>Kerberos Keytab</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Kerberos Relogin Period</key>
+<value>
+    <name>Kerberos Relogin Period</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Additional Classpath Resources</key>
+<value>
+    <name>Additional Classpath Resources</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Directory</key>
+<value>
+    <name>Directory</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>
+    <name>Conflict Resolution Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Block Size</key>
+<value>
+    <name>Block Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>IO Buffer Size</key>
+<value>
+    <name>IO Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replication</key>
+<value>
+    <name>Replication</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Permissions umask</key>
+<value>
+    <name>Permissions umask</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Remote Owner</key>
+<value>
+    <name>Remote Owner</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Remote Group</key>
+<value>
+    <name>Remote Group</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Compression codec</key>
+<value>
+    <name>Compression codec</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Hadoop Configuration Resources</key>
+<value>/etc/hadoop/conf/core-site.xml,/etc/hadoop/conf/hdfs-site.xml</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+                            </entry>
+                            <entry>
+<key>Kerberos Principal</key>
+                            </entry>
+                            <entry>
+<key>Kerberos Keytab</key>
+                            </entry>
+                            <entry>
+<key>Kerberos Relogin Period</key>
+<value>4 hours</value>
+                            </entry>
+                            <entry>
+<key>Additional Classpath Resources</key>
+                            </entry>
+                            <entry>
+<key>Directory</key>
+<value>/user/admin</value>
+                            </entry>
+                            <entry>
+<key>Conflict Resolution Strategy</key>
+<value>fail</value>
+                            </entry>
+                            <entry>
+<key>Block Size</key>
+                            </entry>
+                            <entry>
+<key>IO Buffer Size</key>
+                            </entry>
+                            <entry>
+<key>Replication</key>
+                            </entry>
+                            <entry>
+<key>Permissions umask</key>
+<value>000</value>
+                            </entry>
+                            <entry>
+<key>Remote Owner</key>
+                            </entry>
+                            <entry>
+<key>Remote Group</key>
+                            </entry>
+                            <entry>
+<key>Compression codec</key>
+<value>NONE</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutHDFS</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
+                </processors>
+            </contents>
+            <name>infer_schema_from_tsv</name>
+            <variables/>
+        </processGroups>
+    </snippet>
+    <timestamp>09/20/2018 01:24:48 UTC</timestamp>
+</template>
